@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(180, 176, 171, 0.541);
+}
+
+h1 {
+  color: blueviolet;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  text-align: center;
+  background-color: black;
+  color: rebeccapurple;
+  width: 20%;
+  margin-left: 40%;
+  transform: translateX();
+  border-radius: 40px;
+}
+h2 p {
+  text-align: center;
+  background-color: black;
+  color: rebeccapurple;
+}
+.bulle {
+  width: 20px;
+  height: 100px;
+  border-radius: 40px;
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+  filter: hue-rotate(0deg);
+  animation: bubulle 10s forwards;
+  cursor: crosshair;
+}
+@keyframes bubulle {
+  to {
+    top: -300px;
+    opacity: 1;
+    filter: hue-rotate(720deg);
+  }
+}
+
+footer {
+  text-align: center;
+  padding-top: 500px;
+  margin-top: -93px;
+}
+
+.az {
+  width: 100px;
+  right: 100%;
+}
